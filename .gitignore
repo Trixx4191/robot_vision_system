@@ -1,0 +1,26 @@
+# Environments
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Models
+*.pt
+*.pth
+*.onnx
+*.engine
+*.task
+
+# Data / recordings
+data/
+datasets/
+videos/
+recordings/
+
+# Logs / outputs
+runs/
+logs/
+outputs/
+
+# VS Code
+.vscode/
