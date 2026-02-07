@@ -17,7 +17,7 @@ while True:
     #  Object Detection 
     yolo_results = yolo.detect(frame)
     annotated_frame = yolo_results.plot()
-
+    
     #  Hand Tracking 
     hand_results = hands.process(frame)
     if hand_results.hand_landmarks is not None:
