@@ -7,7 +7,7 @@ from mediapipe.tasks.python import vision
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 MODEL_PATH = os.path.join(SCRIPT_DIR, '..', 'hand_landmarker.task')
 
-# List of landmark connections for drawing hand skeleton.
+# List of landmark connections for drawing hand skeleton in camera feed. These are based on the standard 21 hand landmarks defined by MediaPipe.
 HAND_CONNECTIONS = [
     (0,1),(1,2),(2,3),(3,4),
     (0,5),(5,6),(6,7),(7,8),
